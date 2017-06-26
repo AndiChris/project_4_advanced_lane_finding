@@ -102,7 +102,7 @@ The `__find_fresh_line()` function (line 52 - 128, cell 9) first makes a histogr
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-In code cell 9 at line 204 in the function `__calc_radius()` I calculated the curvature of the lane. For the position of the vehicle with respect to center I used a combination of first storing the relative value of each line at line 172 (still code cell 9) and then in code cell 11 line 38 I used both values (from left and right line) to calculate the final position.
+In code cell 9 at line 194 in the function `__calc_radius()` I calculated the curvature of the lane. For the position of the vehicle with respect to center I used a combination of first storing the relative averaged x-value of each line at line 172 (still code cell 9) and then in code cell 11 line 41 I used both values (from left and right line) to calculate the final position.
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
